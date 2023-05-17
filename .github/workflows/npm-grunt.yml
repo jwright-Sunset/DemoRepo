@@ -25,3 +25,6 @@ jobs:
     - name: Build
       run: |
         npm install
+    
+    - name: Test Run
+      run: test.js
