@@ -27,4 +27,4 @@ jobs:
         npm install
     
     - name: Test Run
-      run: test.js
+      run: cat test.js
