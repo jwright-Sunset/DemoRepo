@@ -26,6 +26,7 @@ jobs:
       run: |
         npm install
         npm install selenium-webdriver
+        npm install chromedriver
     
     - name: Test Run
       run: node test.js
