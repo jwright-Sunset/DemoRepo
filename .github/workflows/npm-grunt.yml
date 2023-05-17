@@ -27,4 +27,4 @@ jobs:
         npm install
     
     - name: Test Run
-      run: echo test.js
+      run: node test.js
